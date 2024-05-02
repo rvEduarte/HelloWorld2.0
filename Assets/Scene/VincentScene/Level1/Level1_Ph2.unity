@@ -178,6 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 169084725}
   - component: {fileID: 169084726}
+  - component: {fileID: 169084727}
   m_Layer: 0
   m_Name: blasterE
   m_TagString: Untagged
@@ -252,6 +253,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &169084727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169084724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7158356b89b178244b8b02471d052ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &182653009
 GameObject:
   m_ObjectHideFlags: 0
@@ -7804,34 +7817,13 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3015038049848098971, guid: aa3c72466fac1e340b3f5538365d4100, type: 3}
       insertIndex: -1
       addedObject: {fileID: 169084725}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1052885021027210343, guid: aa3c72466fac1e340b3f5538365d4100, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2035264944}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c72466fac1e340b3f5538365d4100, type: 3}
 --- !u!4 &2035264942 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3015038049848098971, guid: aa3c72466fac1e340b3f5538365d4100, type: 3}
   m_PrefabInstance: {fileID: 2035264941}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2035264943 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1052885021027210343, guid: aa3c72466fac1e340b3f5538365d4100, type: 3}
-  m_PrefabInstance: {fileID: 2035264941}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2035264944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2035264943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c22145df38010af49afb4f899d1c6bf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gun: {fileID: 169084724}
 --- !u!1 &2069969611
 GameObject:
   m_ObjectHideFlags: 0
